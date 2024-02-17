@@ -116,16 +116,17 @@ const { title } = Astro.props
     --color-bg: 255 255 255;
     --color-border: 255 255 255;
     --color-box: 255 255 255;
-    --box-border: 229 231 235;
+    --box-border: 150, 153, 163;
     --box-sd: 226 232 240 / 0.5;
+
     --heading-1: 23 37 84;
     --heading-2: 31 41 55;
     --heading-3: 55 65 81;
   }
 
   .dark {
-    --color-bg: 3 7 18;
-    --color-box: 17 24 39;
+    --color-bg: 26, 27, 38;
+    --color-box: 36, 40, 59;
     --box-border: 243 244 246/0.1;
     --box-sd: transparent;
 
@@ -138,7 +139,9 @@ const { title } = Astro.props
     scroll-behavior: smooth;
   }
   body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Noto Serif JP', 'ヒラギノ角ゴ Pro W3',
+      'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴシック',
+      'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, Verdana, sans-serif;
   }
 
   [data-toggle-nav][data-open-nav='true'] #line1 {
