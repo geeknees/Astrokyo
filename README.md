@@ -1,5 +1,10 @@
 # Astrokyo (Day and Night)
 
+A simple corporate page.
+
+![AgenceX light Theme](./screens/demoLight.png)
+![AgenceX Dark Theme](./screens/demoDark.png)
+
 ## 🔧 Tools
 
 - Astro v4
@@ -14,15 +19,19 @@ Inside of your Astro project, you'll see the following folders and files:
 ```text
 /
 ├── public/
+│   ├── images/
 │   └── favicon.svg
 ├── src/
 │   ├── components/
-│   │   └── Card.astro
+│   │   ├── elements/*
+│   │   ├── sections/*
+│   │   ├── shared/*
 │   ├── layouts/
 │   │   └── Layout.astro
 │   └── pages/
 │       └── index.astro
 └── package.json
+└── tailwind.config.cjs
 ```
 
 Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
