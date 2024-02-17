@@ -1,0 +1,96 @@
+---
+import Container from '../shared/Container.astro'
+import Paragraph from '../shared/Paragraph.astro'
+import Title from '../shared/Title.astro'
+---
+
+<section class='relative'>
+  <div class='text-center max-w-6xl mx-auto pb-10'>
+    <Title> ギャラリー </Title>
+  </div>
+  <Container className={'flex flex-col lg:flex-row gap-10 lg:gap-12'}>
+    <div class='max-w-sm rounded overflow-hidden shadow-lg'>
+      <img class='w-full' src='/images/fuji.webp' alt='Twilight Mount Fuji' />
+      <div class='px-6 py-4'>
+        <div class='font-bold text-xs mb-2'>
+          <Paragraph>Twilight Mount Fuji</Paragraph>
+        </div>
+        <Paragraph className='text-gray-700 text-base'>
+          あのイーハトーヴォのすきとおった風、夏でも底に冷たさをもつ青いそら、うつくしい森で飾られたモリーオ市、郊外のぎらぎらひかる草の波。
+        </Paragraph>
+      </div>
+      <div class='px-6 pt-4 pb-2'>
+        <span
+          class='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'
+          >#photography</span
+        >
+        <span
+          class='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'
+          >#travel</span
+        >
+        <span
+          class='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'
+          >#winter</span
+        >
+      </div>
+    </div>
+    <div class='max-w-sm rounded overflow-hidden shadow-lg'>
+      <img
+        class='w-full'
+        src='/images/hokkaido.webp'
+        alt='Snowy Hokkaido Evening'
+      />
+      <div class='px-6 py-4'>
+        <div class='font-bold text-xs mb-2'>
+          <Paragraph>Snowy Hokkaido Evening</Paragraph>
+        </div>
+        <Paragraph className='text-gray-700 text-base'>
+          あのイーハトーヴォのすきとおった風、夏でも底に冷たさをもつ青いそら、うつくしい森で飾られたモリーオ市、郊外のぎらぎらひかる草の波。
+        </Paragraph>
+      </div>
+      <div class='px-6 pt-4 pb-2'>
+        <span
+          class='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'
+          >#photography</span
+        >
+        <span
+          class='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'
+          >#travel</span
+        >
+        <span
+          class='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'
+          >#winter</span
+        >
+      </div>
+    </div>
+    <div class='max-w-sm rounded overflow-hidden shadow-lg'>
+      <img
+        class='w-full'
+        src='/images/kyoto.webp'
+        alt='Icy Kyoto Temple at Dusk'
+      />
+      <div class='px-6 py-4'>
+        <div class='font-bold text-xs mb-2'>
+          <Paragraph>Icy Kyoto Temple at Dusk</Paragraph>
+        </div>
+        <Paragraph className='text-gray-700 text-base'>
+          あのイーハトーヴォのすきとおった風、夏でも底に冷たさをもつ青いそら、うつくしい森で飾られたモリーオ市、郊外のぎらぎらひかる草の波。
+        </Paragraph>
+      </div>
+      <div class='px-6 pt-4 pb-2'>
+        <span
+          class='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'
+          >#photography</span
+        >
+        <span
+          class='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'
+          >#travel</span
+        >
+        <span
+          class='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2'
+          >#winter</span
+        >
+      </div>
+    </div>
+  </Container>
+</section>

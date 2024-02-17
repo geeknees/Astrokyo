@@ -1,29 +1,14 @@
 ---
 import Layout from '../layouts/Layout.astro'
-import Card from '../components/Card.astro'
+import Feature from '../components/sections/Feature.astro'
+import Gallery from '../components/sections/Gallery.astro'
+import Cta from '../components/sections/Cta.astro'
 ---
 
 <Layout title='Welcome(ようこそ) to Astrokyo Day and Night'>
-  <main class='flex flex-col gap-y-20 md:gap-y-32 overflow-hidden pt-32'>
-    <Card
-      href='https://docs.astro.build/'
-      title='Documentation'
-      body='Learn how Astro works and explore the official API docs.'
-    />
-    <Card
-      href='https://astro.build/integrations/'
-      title='Integrations'
-      body='Supercharge your project with new frameworks and libraries.'
-    />
-    <Card
-      href='https://astro.build/themes/'
-      title='Themes'
-      body='Explore a galaxy of community-built starter themes.'
-    />
-    <Card
-      href='https://astro.build/chat/'
-      title='Community'
-      body='Come say hi to our amazing Discord community. ❤️'
-    />
+  <main class='flex flex-col gap-y-20 md:gap-y-32 overflow-hidden'>
+    <Feature />
+    <Gallery />
+    <Cta />
   </main>
 </Layout>
