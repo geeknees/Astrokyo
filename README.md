@@ -2,8 +2,8 @@
 
 A simple corporate page.
 
-![AgenceX light Theme](./screens/demoLight.png)
-![AgenceX Dark Theme](./screens/demoDark.png)
+![Astrokyo light Theme](./screens/demoLight.png)
+![Astrokyo Dark Theme](./screens/demoDark.png)
 
 ## 🔧 Tools
 
